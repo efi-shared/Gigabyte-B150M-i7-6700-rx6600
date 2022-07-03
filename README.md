@@ -1,5 +1,5 @@
 ## Hackintosh
-- OpenCore 0.7.9
+- OpenCore 0.8.1
 - Dmg with macOS Monterey [Download](https://drive.google.com/file/d/1VUMYe4C1fV5k-R3MYIi2hNxvBYGytqqd/view?usp=sharing)
 
 ## 配置
