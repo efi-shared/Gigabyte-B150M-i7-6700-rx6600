@@ -281,42 +281,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>RealtekRTL8111.kext</string>
-				<key>Comment</key>
-				<string>RealtekRTL8111.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/RealtekRTL8111</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>USBInjectAll.kext</string>
-				<key>Comment</key>
-				<string>USBInjectAll.kext</string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/USBInjectAll</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
 				<string>VirtualSMC.kext</string>
@@ -360,6 +324,42 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AppleALC</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>RealtekRTL8111.kext</string>
+				<key>Comment</key>
+				<string>RealtekRTL8111.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/RealtekRTL8111</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>USBInjectAll.kext</string>
+				<key>Comment</key>
+				<string>USBInjectAll.kext</string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/USBInjectAll</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -873,9 +873,9 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<true/>
+			<false/>
 			<key>ApplePanic</key>
-			<true/>
+			<false/>
 			<key>DisableWatchDog</key>
 			<false/>
 			<key>DisplayDelay</key>
@@ -887,7 +887,7 @@
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>67</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -1233,7 +1233,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera -alcbeta -lilubetaall</string>
+				<string>keepsyms=1 alcid=1 agdpmod=pikera -alcbeta -lilubetaall</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
